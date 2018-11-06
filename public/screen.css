@@ -7,3 +7,10 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background: #888;
+}
