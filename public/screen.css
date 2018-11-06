@@ -6,11 +6,49 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  background-image: url('images/bg.png')
 }
 
 header {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 10px;
-  background: #888;
+  background: #000000cc;
+  height: 60px;
+}
+
+input {
+  height: 25px;
+}
+
+input,
+button {
+  background: #000;
+  color: #e2931b;
+  border: solid 1px #1b8be2;
+  font-size: 1.25rem;
+}
+
+button {
+  height: 29px;
+}
+
+main {
+  margin: 25px 0 0 25px;
+}
+
+p {
+  background: #000000cc;
+  width: 400px;
+  padding: 10px;
+  color: #1b8be2;
+  font-size: 1.5rem;
+  border-radius: 25px;
+  margin: 2px;
+  text-transform: capitalize;
+}
+
+span {
+  color: #e2931b;
 }
